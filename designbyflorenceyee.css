@@ -1,0 +1,279 @@
+/* Header here */ 
+
+#main {
+    width: 80%;
+}
+
+h1 {
+    font-family: 'Great Vibes', cursive;
+    text-align: center;
+}
+   
+
+h3 {
+    font-family: 'Quattrocento Sans', sans-serif;
+    color: red;
+    text-align: center;
+    text-decoration: underline;
+    }
+
+h5 {
+    font-family: 'Lato', sans-serif;
+}
+
+p {
+    font-family: 'Catamaran', sans-serif;
+    width: 80%;
+    padding: 0% 10%;
+}
+
+/* other inputs & styles */
+
+a:hover {
+    background-color: lightgreen;
+}
+
+a {
+    text-decoration: none; 
+    color: black;
+}
+
+li {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+---------------
+/* hero size */
+
+.hero img {
+    width: 80%;
+    height: 25%;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+-----------------
+/* header text */
+
+.header {;
+    text-align: center; 
+}
+
+-----------------------------
+/* Nav design start here */
+
+.nav {
+    display: flex;
+    border: 1px black solid;
+}
+
+.nav a {
+    text-decoration: none;
+    list-style-type: none;
+
+}
+
+.nav ul { 
+    border-top: 1px black solid;
+    border-bottom: 1px black solid;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+       
+-----------------------
+/* page content style */
+
+.photography {
+    width: 80%;
+    padding-left: 10%;
+}
+
+--------------------------
+/* homepage pictures */
+
+.homepagepics {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.pinkrose img {
+    width: 26.6%;
+}
+
+.cross img {
+    width: 26.6%;
+}
+
+.coloredrose img {
+    width: 26.6%;
+}
+
+.homepagepics {
+    display: flex;
+}
+
+.pinkrose; .coloredrose, .cross {
+    padding: 5%;
+    flex: 1;
+    margin: auto;
+}
+
+-----------------
+/* About me */
+
+.aboutme {
+    width: 80%;
+    margin: auto;
+}
+
+-----------------
+/* about me pictures */
+
+.pianopics { 
+    display: flex;
+}
+
+.pianostudent img {
+    width: 26.6%;
+    padding: 2%;
+}
+
+.redpiano img {
+    width: 26.6%;
+    padding: 2%;
+}
+
+.fingers img {
+    width: 26.6%;
+    padding: 2%;
+}
+
+
+-----------------
+/* gallery images start here */
+
+/* Nature pic first */
+
+.natureparent {
+    display: flex;
+    flex-direction: column;
+}
+
+.blossomtree img {
+    width: 26.6%;
+}
+
+.daisies img {
+    width: 26.6%;
+}
+
+.doublerainbow img {
+    width: 26.6%;
+}
+
+-----------------------
+/* museum pics style */
+
+.biblemuseumparent {
+    display: flex;
+}
+
+.landscape img {
+    width: 26.6%;
+}
+.language img {
+    width: 26.6%;
+}
+
+.fashion img {
+    width: 26.6%;
+}
+
+----------------
+/* New York pics style */
+
+.cityparent {
+    display: flex;
+}
+
+.empire img {
+    width: 26.6%;
+}
+
+.freedom img {
+    width: 26.6%;
+}
+
+.lic img {
+    width: 26.6%;
+}
+
+---------------
+/* nybg */
+
+.nybgparent {
+    display: flex;
+}
+
+.lilypads img {
+    width: 26.6%;
+}
+
+.orchids img {
+    width: 26.6%;
+}
+
+.chihulynight img {
+    width: 26.6%;
+}
+
+-----------------
+/* goodbyepics */
+
+.goodbyepictures img {
+    display:flex;
+}
+
+.sunsetbfpl img {
+    width: 26.6%;
+}
+
+.sungoingdown img {
+    width:26.6%;
+}
+
+.piersunset img {
+    width: 26.6%;
+}
+
+--------------------------
+/* Feedback Entry */
+
+.input {
+    width: 80%;
+    height: auto;
+}
+
+.feedback{ 
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    padding-bottom: 30px;
+}
+
+-----------------
+/* Footer last */
+
+.footer {
+    color: black;
+    text-align: center;
+    width: 100%;
+    border-top: 1px black solid;
+    font-family: 'Lato', sans-serif;
+}
+
