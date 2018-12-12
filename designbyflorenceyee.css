@@ -1,7 +1,7 @@
 /* Header here */ 
 
 #main {
-    width: 80%;
+    width: 100%;
 }
 
 h1 {
@@ -47,7 +47,7 @@ li {
 /* hero size */
 
 .hero img {
-    width: 80%;
+    width: 100%;
     height: 25%;
     padding-left: 20%;
     padding-right: 20%;
@@ -56,7 +56,7 @@ li {
 -----------------
 /* header text */
 
-.header {;
+.header {
     text-align: center; 
 }
 
@@ -88,7 +88,6 @@ li {
 
 .photography {
     width: 80%;
-    padding-left: 10%;
 }
 
 --------------------------
@@ -112,10 +111,6 @@ li {
     width: 26.6%;
 }
 
-.homepagepics {
-    display: flex;
-}
-
 .pinkrose; .coloredrose, .cross {
     padding: 5%;
     flex: 1;
@@ -135,6 +130,7 @@ li {
 
 .pianopics { 
     display: flex;
+    flex-direction: column;
 }
 
 .pianostudent img {
@@ -152,6 +148,9 @@ li {
     padding: 2%;
 }
 
+.pianostudent, .redpiano, .fingers {
+    display: flex;
+    flex-direction: column;
 
 -----------------
 /* gallery images start here */
