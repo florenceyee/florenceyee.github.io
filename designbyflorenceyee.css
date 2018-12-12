@@ -48,7 +48,7 @@ li {
 /* hero size */
 
 .hero img {
-    width: 300px;
+    width: 270px;
     height: auto;
 }
 
@@ -99,19 +99,19 @@ li {
 
 .pinkrose img {
     width: 200px;
-    height: 250px;
+    height: 225px;
     padding: 10px;
 }
 
 .cross img {
     width: 200px;
-    height: 250px;
+    height: 225px;
     padding: 10px;
 }
 
 .coloredrose img {
     width: 200px;
-    height: 250px;
+    height: 225px;
     padding: 10px;
 }
 
@@ -128,6 +128,7 @@ li {
 
 .pianopics { 
     display: flex;
+    flex-direction: row;
 }
 
 .pianostudent img {
@@ -299,5 +300,6 @@ li {
     color: black;
     border-top: 1px black solid;
     font-family: 'Lato', sans-serif;
+    text-align: center;
 }
 
