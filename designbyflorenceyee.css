@@ -1,7 +1,7 @@
 /* Header here */ 
 
 #main {
-    width: 100%;
+    width: 80%;
 }
 
 h1 {
@@ -47,7 +47,7 @@ li {
 /* hero size */
 
 .hero img {
-    width: 70%;
+    width: 80%;
     height: 25%;
     padding-left: 20%;
     padding-right: 20%;
@@ -100,23 +100,23 @@ li {
 }
 
 .pinkrose img {
-    width: 26.6%;
+    width: 20%;
     padding: 2%;
 }
 
 .cross img {
-    width: 26.6%;
+    width: 20%;
     padding: 2%;
 }
 
 .coloredrose img {
-    width: 26.6%;
+    width: 20%;
     padding: 2%;
 }
 
 .pinkrose; .coloredrose, .cross {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 -----------------
