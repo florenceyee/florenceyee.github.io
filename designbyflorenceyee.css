@@ -93,10 +93,6 @@ li {
 --------------------------
 /* homepage pictures */
 
-.homepagepics {
-    display: flex;
-}
-
 .pinkrose img {
     width: 200px;
     height: 200px;
@@ -115,6 +111,10 @@ li {
     padding: 10px;
 }
 
+.pinkrose, .cross, .coloredrose {
+    display: flex;
+    flex-direction: row;
+}
 -----------------
 /* About me */
 
@@ -154,6 +154,7 @@ li {
 
 .natureparent {
     display: flex;
+    flex-direction: row;
 }
 
 .blossomtree img {
