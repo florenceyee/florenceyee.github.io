@@ -47,10 +47,10 @@ li {
 ---------------
 /* hero size */
 
-.hero {
-    width: 500px;
-    height: 400px;
-    padding: 5px;
+.hero img {
+    width: 300px;
+    height: 300px;
+    padding: 50px;
 }
 
 -----------------
