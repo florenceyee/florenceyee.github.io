@@ -26,6 +26,7 @@ h5 {
 p {
     font-family: 'Catamaran', sans-serif;
     width: 80%;
+    text-align: center;
 }
 
 /* other inputs & styles */
@@ -91,11 +92,6 @@ li {
 --------------------------
 /* homepage pictures */
 
-.homepagepics {
-    display: flex;
-    align-content: flex-start;
-    flex-wrap: wrap;
-}
 
 .pinkrose img {
     width: 200px;
@@ -113,6 +109,11 @@ li {
     width: 200px;
     height: 225px;
     padding: 10px;
+}
+
+.pinkrose, .cross, .coloredrose {
+    display: flex;
+    flex-direction: row;
 }
 -----------------
 /* About me */
