@@ -25,7 +25,6 @@ h5 {
 
 p {
     font-family: 'Catamaran', sans-serif;
-    text-align: center;
 }
 
 /* other inputs & styles */
@@ -93,7 +92,8 @@ li {
 
 .homepagepics {
     display: flex;
-    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 .pinkrose img {
@@ -245,7 +245,7 @@ li {
 }
 
 .chihulynight img {
-    width: 300px;
+    width: 400px;
     height: 300px;
     padding: 10px;
 }
