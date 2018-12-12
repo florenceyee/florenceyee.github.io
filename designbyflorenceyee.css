@@ -49,8 +49,6 @@ li {
 .hero img {
     width: 80%;
     height: 25%;
-    padding-left: 20%;
-    padding-right: 20%;
 }
 
 -----------------
@@ -96,7 +94,6 @@ li {
 .homepagepics {
     width: 80%;
     display: flex;
-    flex-direction: row;
 }
 
 .pinkrose img {
@@ -116,7 +113,6 @@ li {
 
 .pinkrose; .coloredrose, .cross {
     display: flex;
-    flex-direction: column;
 }
 
 -----------------
@@ -132,27 +128,23 @@ li {
 
 .pianopics { 
     display: flex;
-    flex-direction: row;
 }
 
 .pianostudent img {
-    width: 26.6%;
-    padding: 2%;
+    width: 20%;
 }
 
 .redpiano img {
-    width: 26.6%;
-    padding: 2%;
+    width: 20%;
 }
 
 .fingers img {
-    width: 26.6%;
-    padding: 2%;
+    width: 20%;
 }
 
 .pianostudent, .redpiano, .fingers {
     display: flex;
-    flex-direction: row;
+}
 
 -----------------
 /* gallery images start here */
@@ -161,72 +153,64 @@ li {
 
 .natureparent {
     display: flex;
-    flex-direction: row;
 }
 
 .blossomtree img {
-    width: 26.6%;
-    padding: 2%;
+    width: 20%;
 }
 
 .daisies img {
-    width: 26.6%;
-    padding: 2%;
+    width: 20%;
 }
 
 .doublerainbow img {
-    width: 26.6%;
-    padding: 2%;
+    width: 20%;
 }
 
 .blossomtree, .daisies, .doublerainbow {
     display: flex;
-    flex-direction: row;
  }
+
 -----------------------
 /* museum pics style */
 
 .biblemuseumparent {
     display: flex;
-    flex-direction: row;
 }
 
 .landscape img {
-    width: 26.6%;
-    padding: 2%;
+    width: 20%;
 }
+
 .language img {
-    width: 26.6%;
-    padding: 2%;
+    width: 20%;
 }
 
 .fashion img {
-    width: 26.6%;
-    padding: 2%;
+    width: 20%;
 }
 
 .landscape, .language, .fashion {
     display: flex;
-    flex-direction: row;
     }
+
 ----------------
 /* New York pics style */
 
 .cityparent {
     display: flex;
-    flex-direction: row;
 }
 
 .empire img {
-    width: 26.6%;
+    width: 20%;
 }
 
 .freedom img {
-    width: 26.6%;
+    width: 20%;
 }
 
 .lic img {
-    width: 26.6%;
+    width: 20%;
 }
 
 ---------------
@@ -237,34 +221,34 @@ li {
 }
 
 .lilypads img {
-    width: 26.6%;
+    width: 20%;
 }
 
 .orchids img {
-    width: 26.6%;
+    width: 20%;
 }
 
 .chihulynight img {
-    width: 26.6%;
+    width: 20%;
 }
 
 -----------------
 /* goodbyepics */
 
 .goodbyepictures img {
-    display:flex;
+    display: flex;
 }
 
 .sunsetbfpl img {
-    width: 26.6%;
+    width: 20%;
 }
 
 .sungoingdown img {
-    width:26.6%;
+    width: 20%;
 }
 
 .piersunset img {
-    width: 26.6%;
+    width: 20%;
 }
 
 --------------------------
@@ -289,7 +273,7 @@ li {
 .footer {
     color: black;
     text-align: center;
-    width: 100%;
+    width: 80%;
     border-top: 1px black solid;
     font-family: 'Lato', sans-serif;
 }
