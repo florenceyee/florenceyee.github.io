@@ -92,8 +92,8 @@ li {
 /* homepage pictures */
 
 .homepagepics {
-    width: 80%;
     display: flex;
+    flex-direction: column;
 }
 
 .pinkrose img {
@@ -109,11 +109,6 @@ li {
 .coloredrose img {
     width: 20%;
     padding: 2%;
-}
-
-.pinkrose, .coloredrose, .cross {
-    display: flex;
-    flex-direction: column;
 }
 
 -----------------
