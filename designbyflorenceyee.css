@@ -92,7 +92,7 @@ li {
 --------------------------
 /* homepage pictures */
 
-.homepagepics img {
+.homepagepics {
     display: flex;
     flex-direction: row;
 }
@@ -125,13 +125,13 @@ li {
 -----------------
 /* about me pictures */
 
-.pianopics img { 
+.pianopics { 
     display: flex;
     flex-direction: row;
 }
 
 .pianostudent img {
-    width: 200px;
+    width: 250px;
     height: 200px;
     padding: 10px;
 }
@@ -148,25 +148,19 @@ li {
     padding: 10px;
 }
 
-.pianostudent, .redpiano, .fingers {
-    padding: 5%;
-    flex: 1;
-    margin: auto;
-}
-
 -----------------
 /* gallery images start here */
 
 /* Nature pic first */
 
-.natureparent img {
+.natureparent {
     display: flex;
     flex-direction: row;
 }
 
 .blossomtree img {
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 300px;
     padding: 10px;
 }
 
@@ -177,7 +171,7 @@ li {
 }
 
 .doublerainbow img {
-    width: 200px;
+    width: 300px;
     height: 200px;
     padding: 10px;
 }
@@ -185,20 +179,20 @@ li {
 -----------------------
 /* museum pics style */
 
-.biblemuseumparent img {
+.biblemuseumparent {
     display: flex;
     flex-direction: row;
 }
 
 .landscape img {
-    width: 200px;
+    width: 300px;
     height: 200px;
     padding: 10px;
 }
 
 .language img {
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     padding: 10px;
 }
 
@@ -211,7 +205,7 @@ li {
 ----------------
 /* New York pics style */
 
-.cityparent img {
+.cityparent {
     display: flex;
 }
 
@@ -236,7 +230,7 @@ li {
 ---------------
 /* nybg */
 
-.nybgparent img {
+.nybgparent {
     display: flex;
 }
 
@@ -261,8 +255,9 @@ li {
 -----------------
 /* goodbyepics */
 
-.goodbyepictures img {
+.goodbyepictures {
     display: flex;
+    flex-direction: row;
 }
 
 .sunsetbybfpl img {
