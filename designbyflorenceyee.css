@@ -115,7 +115,7 @@ li {
     padding: 10px;
 }
 
-.pinkrose; .coloredrose, .cross {
+.pinkrose, .coloredrose, .cross {
     padding: 10%;
     flex: 1;
     margin: auto;
@@ -152,6 +152,12 @@ li {
     width: 200px;
     height: 200px;
     padding: 10px;
+}
+
+.pianostudent, .redpiano, .fingers {
+    padding: 5%;
+    flex: 1;
+    margin: auto;
 }
 
 -----------------
