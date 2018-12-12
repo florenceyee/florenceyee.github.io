@@ -26,7 +26,6 @@ h5 {
 p {
     font-family: 'Catamaran', sans-serif;
     width: 80%;
-    text-align: center;
 }
 
 /* other inputs & styles */
@@ -49,8 +48,8 @@ li {
 /* hero size */
 
 .herotreecover {
-    width: 50%;
-    height: auto:
+    width: 30%;
+    height: 30%;
 }
 
 -----------------
@@ -115,12 +114,6 @@ li {
     height: 225px;
     padding: 10px;
 }
-
-.pinkrose; .coloredrose, .cross {
-    flex: 1;
-    margin: auto;
-}
-
 -----------------
 /* About me */
 
@@ -176,7 +169,7 @@ li {
 }
 
 .doublerainbow img {
-    width: 300px;
+    width: 400px;
     height: 300px;
     padding: 10px;
 }
@@ -197,7 +190,7 @@ li {
 
 .language img {
     width: 300px;
-    height: 300px;
+    height: 400px;
     padding: 10px;
 }
 
@@ -215,20 +208,20 @@ li {
 }
 
 .empire img {
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     padding: 10px;
 }
 
 .freedom img {
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     padding: 10px;
 }
 
 .lic img {
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     padding: 10px;
 }
 
@@ -262,7 +255,6 @@ li {
 
 .goodbyepictures {
     display: flex;
-    flex-direction: row;
 }
 
 .sunsetbybfpl img {
