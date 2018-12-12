@@ -18,14 +18,18 @@ h3 {
     text-decoration: underline;
     }
 
+h4 {
+    text-align: center;
+}
+
 h5 {
     font-family: 'Lato', sans-serif;
+    text-align: center;
 }
 
 p {
     font-family: 'Catamaran', sans-serif;
     width: 80%;
-    padding: 0% 10%;
 }
 
 /* other inputs & styles */
@@ -49,7 +53,7 @@ li {
 
 .hero img {
     width: 50%;
-    height: auto;
+    height: 50%;
 }
 
 -----------------
@@ -127,7 +131,6 @@ li {
 
 .pianopics { 
     display: flex;
-    flex-direction: row;
 }
 
 .pianostudent img {
@@ -137,13 +140,13 @@ li {
 }
 
 .redpiano img {
-    width: 200px;
+    width: 250px;
     height: 200px;
     padding: 10px;
 }
 
 .fingers img {
-    width: 200px;
+    width: 250px;
     height: 200px;
     padding: 10px;
 }
@@ -159,20 +162,20 @@ li {
 }
 
 .blossomtree img {
-    width: 250px;
+    width: 300px;
     height: 300px;
     padding: 10px;
 }
 
 .daisies img {
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     padding: 10px;
 }
 
 .doublerainbow img {
     width: 300px;
-    height: 200px;
+    height: 300px;
     padding: 10px;
 }
 
@@ -197,8 +200,8 @@ li {
 }
 
 .fashion img {
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     padding: 10px;
 }
 
@@ -235,20 +238,20 @@ li {
 }
 
 .lilypads img {
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     padding: 10px;
 }
 
 .orchids img {
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     padding: 10px;
 }
 
 .chihulynight img {
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     padding: 10px;
 }
 
