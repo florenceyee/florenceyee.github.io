@@ -1,7 +1,8 @@
 /* Header here */ 
 
 #main {
-    width: 80%;
+    width: 100%;
+    margin: auto;
 }
 
 h1 {
@@ -47,8 +48,7 @@ li {
 /* hero size */
 
 .hero img {
-    width: 80%;
-    height: 25%;
+    width: 70%;
 }
 
 -----------------
@@ -116,7 +116,6 @@ li {
 
 .aboutme {
     width: 80%;
-    margin: auto;
 }
 
 -----------------
@@ -130,21 +129,19 @@ li {
 .pianostudent img {
     width: 200px;
     height: 200px;
+    padding: 10px;
 }
 
 .redpiano img {
     width: 200px;
     height: 200px;
+    padding: 10px;
 }
 
 .fingers img {
     width: 200px;
     height: 200px;
-}
-
-.pianostudent, .redpiano, .fingers {
-    display: flex;
-    flex-direction: column;
+    padding: 10px;
 }
 
 -----------------
@@ -154,6 +151,7 @@ li {
 
 .natureparent {
     display: flex;
+    flex-direction: row;
 }
 
 .blossomtree img {
@@ -168,15 +166,12 @@ li {
     width: 20%;
 }
 
-.blossomtree, .daisies, .doublerainbow {
-    display: flex;
- }
-
 -----------------------
 /* museum pics style */
 
 .biblemuseumparent {
     display: flex;
+    flex-diretion: column;
 }
 
 .landscape img {
@@ -190,10 +185,6 @@ li {
 .fashion img {
     width: 20%;
 }
-
-.landscape, .language, .fashion {
-    display: flex;
-    }
 
 ----------------
 /* New York pics style */
