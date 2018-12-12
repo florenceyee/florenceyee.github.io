@@ -47,7 +47,7 @@ li {
 /* hero size */
 
 .hero img {
-    width: 100%;
+    width: 70%;
     height: 25%;
     padding-left: 20%;
     padding-right: 20%;
@@ -96,25 +96,27 @@ li {
 .homepagepics {
     width: 80%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 .pinkrose img {
     width: 26.6%;
+    padding: 2%;
 }
 
 .cross img {
     width: 26.6%;
+    padding: 2%;
 }
 
 .coloredrose img {
     width: 26.6%;
+    padding: 2%;
 }
 
 .pinkrose; .coloredrose, .cross {
-    padding: 5%;
-    flex: 1;
-    margin: auto;
+    display: flex;
+    flex-direction: row;
 }
 
 -----------------
@@ -130,7 +132,7 @@ li {
 
 .pianopics { 
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 .pianostudent img {
@@ -150,7 +152,7 @@ li {
 
 .pianostudent, .redpiano, .fingers {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 
 -----------------
 /* gallery images start here */
@@ -159,44 +161,60 @@ li {
 
 .natureparent {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 .blossomtree img {
     width: 26.6%;
+    padding: 2%;
 }
 
 .daisies img {
     width: 26.6%;
+    padding: 2%;
 }
 
 .doublerainbow img {
     width: 26.6%;
+    padding: 2%;
 }
 
+.blossomtree, .daisies, .doublerainbow {
+    display: flex;
+    flex-direction: row;
+ }
 -----------------------
 /* museum pics style */
 
 .biblemuseumparent {
     display: flex;
+    flex-direction: row;
 }
 
 .landscape img {
     width: 26.6%;
+    padding: 2%;
 }
 .language img {
     width: 26.6%;
+    padding: 2%;
 }
 
 .fashion img {
     width: 26.6%;
+    padding: 2%;
 }
 
+.landscape, .language, .fashion {
+    display: flex;
+    flex-direction: row;
+    }
 ----------------
 /* New York pics style */
 
 .cityparent {
     display: flex;
+    flex-direction: row;
 }
 
 .empire img {
