@@ -115,6 +115,11 @@ li {
     padding: 10px;
 }
 
+.pinkrose; .coloredrose, .cross {
+    padding: 10%;
+    flex: 1;
+    margin: auto;
+}
 
 -----------------
 /* About me */
