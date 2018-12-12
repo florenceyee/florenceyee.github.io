@@ -48,7 +48,7 @@ li {
 /* hero size */
 
 .hero img {
-    width: 270px;
+    width: 100%;
     height: auto;
 }
 
@@ -92,7 +92,7 @@ li {
 --------------------------
 /* homepage pictures */
 
-.homepagepics {
+.homepagepics img {
     display: flex;
     flex-direction: row;
 }
@@ -115,12 +115,6 @@ li {
     padding: 10px;
 }
 
-.pinkrose, .coloredrose, .cross {
-    padding: 10%;
-    flex: 1;
-    margin: auto;
-}
-
 -----------------
 /* About me */
 
@@ -131,7 +125,7 @@ li {
 -----------------
 /* about me pictures */
 
-.pianopics { 
+.pianopics img { 
     display: flex;
     flex-direction: row;
 }
@@ -165,7 +159,7 @@ li {
 
 /* Nature pic first */
 
-.natureparent {
+.natureparent img {
     display: flex;
     flex-direction: row;
 }
@@ -191,8 +185,9 @@ li {
 -----------------------
 /* museum pics style */
 
-.biblemuseumparent {
+.biblemuseumparent img {
     display: flex;
+    flex-direction: row;
 }
 
 .landscape img {
@@ -216,7 +211,7 @@ li {
 ----------------
 /* New York pics style */
 
-.cityparent {
+.cityparent img {
     display: flex;
 }
 
@@ -241,7 +236,7 @@ li {
 ---------------
 /* nybg */
 
-.nybgparent {
+.nybgparent img {
     display: flex;
 }
 
@@ -270,7 +265,7 @@ li {
     display: flex;
 }
 
-.sunsetbfpl img {
+.sunsetbybfpl img {
     width: 200px;
     height: 200px;
     padding: 10px;
