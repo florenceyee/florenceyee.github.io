@@ -111,8 +111,9 @@ li {
     padding: 2%;
 }
 
-.pinkrose; .coloredrose, .cross {
+.pinkrose, .coloredrose, .cross {
     display: flex;
+    flex-direction: column;
 }
 
 -----------------
@@ -128,22 +129,27 @@ li {
 
 .pianopics { 
     display: flex;
+    flex-direction: column;
 }
 
 .pianostudent img {
-    width: 20%;
+    width: 200px;
+    height: 200px;
 }
 
 .redpiano img {
-    width: 20%;
+    width: 200px;
+    height: 200px;
 }
 
 .fingers img {
-    width: 20%;
+    width: 200px;
+    height: 200px;
 }
 
 .pianostudent, .redpiano, .fingers {
     display: flex;
+    flex-direction: column;
 }
 
 -----------------
