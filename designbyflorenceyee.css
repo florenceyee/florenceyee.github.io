@@ -23,8 +23,9 @@ h5 {
     text-align: center;
 }
 
-p {
+p { 
     font-family: 'Catamaran', sans-serif;
+    text-align: center;
 }
 
 /* other inputs & styles */
@@ -47,7 +48,7 @@ li {
 /* hero size */
 
 .hero img {
-    width: 100%;
+    width: 60%;
 }
 
 -----------------
@@ -94,11 +95,12 @@ li {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex: 1;
 }
 
 .pinkrose img {
     width: 200px;
-    height: 200px;
+    height: 300px;
     padding: 10px;
 }
 
@@ -109,8 +111,8 @@ li {
 }
 
 .coloredrose img {
-    width: 200px;
-    height: 205px;
+    width: 300px;
+    height: 200px;
     padding: 10px;
 }
 
@@ -126,6 +128,8 @@ li {
 
 .pianopics { 
     display: flex;
+    flex-direction: row; 
+    flex: 1;
 }
 
 .pianostudent img {
