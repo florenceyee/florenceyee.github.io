@@ -24,8 +24,6 @@ h5 {
 
 p { 
     font-family: 'Catamaran', sans-serif;
-    justify-content: center;
-    text-align: center;
 }
 
 /* other inputs & styles */
@@ -48,7 +46,7 @@ li {
 /* hero size */
 
 .hero img {
-    width: 100%;
+    width: 60%;
     height: auto;
 }
 
